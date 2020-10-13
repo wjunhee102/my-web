@@ -1,9 +1,3 @@
-<template>
-  <div>
-    <Nuxt />
-  </div>
-</template>
-
 <style>
 html {
   font-family:
@@ -60,3 +54,12 @@ html {
   background-color: #35495e;
 }
 </style>
+
+
+<template>
+  <div>
+    <layout-header></layout-header>
+    <Nuxt />
+  </div>
+</template>
+
