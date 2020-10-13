@@ -11,9 +11,13 @@ export default {
     base: 'https://wjunhee102.github.io/my-web/'
   },
 
+  generate: {
+    fallback: true
+  }
+
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'JunheeWeb',
+    title: 'Junhee-Portfolio',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
