@@ -1,4 +1,5 @@
 export default {
+  mode: 'universal',
 
   target: 'static',
 
@@ -6,6 +7,9 @@ export default {
   //   host: '0.0.0.0',
   //   port: 4000,
   // },
+  router: {
+    base: 'https://wjunhee102.github.io/my-web/'
+  },
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
